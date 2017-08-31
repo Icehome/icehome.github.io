@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Raleway|Robo);
+
+body {
+
+    /*font-family: Raleway;*/
+    background-image: url('../img/fullscreen_bg_image.jpg');
+    background-size: cover;
+    
+    
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+.form-border {
+    border-bottom: 3px groove red;
+}
+
+#brd {
+    border-bottom: 1px solid #0b1ecc; /* Линия снизу */
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.container-loginForm {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    }
+
+.border-non {
+    border: none;
+    border-bottom: 1px groove;
+    border-radius: inherit;
+}
+
+.border-non-icon {
+    border: none;
+    border-radius: inherit;
+    background-color: #6c757d;
+}
+
